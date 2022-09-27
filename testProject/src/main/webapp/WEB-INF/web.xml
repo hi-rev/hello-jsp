@@ -10,6 +10,21 @@
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
   
+  <!-- application 객체 -->
+  <context-param>
+  	<param-name>imgDir</param-name>
+  	<param-value>/upload/img</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>testServerIP</param-name>
+  	<param-value>127.0.0.1</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>realServerIP</param-name>
+  	<param-value>127.0.0.1</param-value>
+  </context-param>
+  
+  <!-- config 객체 -->
   <servlet>
   	<servlet-name>servletEx</servlet-name>
   	<jsp-file>/jspEx.jsp</jsp-file>
